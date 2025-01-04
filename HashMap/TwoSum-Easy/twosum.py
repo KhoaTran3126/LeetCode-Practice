@@ -7,6 +7,8 @@ class Solution(object):
 
         Time Complexity and Space Complexity are both O(N)
         """
+
+        ## Complement of current number is stored as key; index of current number is the value
         complements_positions_map = {}
 
         for current_pos in range(len(nums)):
